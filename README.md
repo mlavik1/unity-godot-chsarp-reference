@@ -25,6 +25,12 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 | [Material.SetInt](https://docs.unity3d.com/ScriptReference/Material.SetInt.html) | [SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) |
 | [Material.SetTexture](https://docs.unity3d.com/ScriptReference/Material.SetTexture.html) | [SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) |
 
+## Attributes
+| Unity | Godot |
+| ----- | ----- |
+| [SerializeField](https://docs.unity3d.com/ScriptReference/SerializeField.html) | [Export](https://docs.godotengine.org/en/3.1/getting_started/scripting/gdscript/gdscript_basics.html#doc-gdscript-exports) |
+| [ExecuteInEditMode](https://docs.unity3d.com/ScriptReference/ExecuteInEditMode.html) | [Tool](https://docs.godotengine.org/en/3.1/tutorials/misc/running_code_in_the_editor.html?highlight=Tool) |
+
 ## Classes
 
 | Unity | Godot |
