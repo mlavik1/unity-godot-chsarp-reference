@@ -1,4 +1,6 @@
-# EditorFileDialog
+# EditorFileDialog for saving a file
+
+This is similar to Unity's [EditorUtility.OpenFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.SaveFilePanel.html).
 
 ```csharp
 EditorFileDialog fileDialog = new EditorFileDialog();
