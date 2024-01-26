@@ -30,7 +30,7 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 | Unity | Godot |
 | ----- | ----- |
 | [Editor](https://docs.unity3d.com/ScriptReference/Editor.html) | [EditorInspectorPlugin](https://docs.godotengine.org/en/stable/classes/class_editorinspectorplugin.html) |
-| [Texture2D](https://docs.unity3d.com/ScriptReference/Texture2D.html) | [ImageTexture](hhttps://docs.godotengine.org/en/stable/classes/class_imagetexture.html) |
+| [Texture2D](https://docs.unity3d.com/ScriptReference/Texture2D.html) | [ImageTexture](https://docs.godotengine.org/en/stable/classes/class_imagetexture.html) |
 | [Texture3D](https://docs.unity3d.com/ScriptReference/Texture3D.html) | [ImageTexture3D](https://docs.godotengine.org/en/stable/classes/class_imagetexture3d.html) |
 
 ## Preprocessor definitions:
