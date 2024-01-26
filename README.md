@@ -18,8 +18,8 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 | Unity | Godot | Example |
 | ----- | ----- | ------- |
 | [Application.isEditor](https://docs.unity3d.com/ScriptReference/Application-isEditor.html) | [Engine.IsEditorHint](https://docs.godotengine.org/en/stable/classes/class_engine.html#class-engine-method-is-editor-hint) | |
-| [EditorUtility.OpenFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.OpenFilePanel.html) | [EditorFileDialog](https://docs.godotengine.org/en/stable/classes/class_editorfiledialog.html) | [Example](snippets/EditorFileDialog.md) |
-| [EditorUtility.SaveFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.SaveFilePanel.html) | [EditorFileDialog](https://docs.godotengine.org/en/stable/classes/class_editorfiledialog.html) | [Example](snippets/EditorFileDialog.md) |
+| [EditorUtility.OpenFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.OpenFilePanel.html) | [EditorFileDialog](https://docs.godotengine.org/en/stable/classes/class_editorfiledialog.html) | [Example](snippets/EditorFileDialog-open.md) |
+| [EditorUtility.SaveFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.SaveFilePanel.html) | [EditorFileDialog](https://docs.godotengine.org/en/stable/classes/class_editorfiledialog.html) | [Example](snippets/EditorFileDialog-save.md) |
 | [Material.SetColor](https://docs.unity3d.com/ScriptReference/Material.SetColor.html) | [ShaderMaterial.SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) | |
 | [Material.SetFloat](https://docs.unity3d.com/ScriptReference/Material.SetFloat.html) | [ShaderMaterial.SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) | |
 | [Material.SetInt](https://docs.unity3d.com/ScriptReference/Material.SetInt.html) | [ShaderMaterial.SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) | |
