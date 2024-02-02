@@ -28,7 +28,7 @@ using Godot;
 namespace VolumetricRendering
 {
     [Tool]
-    public partial class VolumetricImporter : EditorPlugin
+    public partial class MyEditorPlugin : EditorPlugin
     {
         public override void _EnterTree()
         {
@@ -46,4 +46,5 @@ namespace VolumetricRendering
         }
     }
 }
+#endif
 ```
