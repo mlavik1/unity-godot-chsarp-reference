@@ -17,6 +17,8 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 
 | Unity | Godot | Example |
 | ----- | ----- | ------- |
+| [Debug.Log](https://docs.unity3d.com/ScriptReference/Debug.Log.html) | [GD.Print](https://github.com/godotengine/godot/blob/10e111477db68fe65776a1d68fb1ffccaf6520fc/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs#L173) | |
+| [Debug.LogError](https://docs.unity3d.com/ScriptReference/Debug.LogError.html) | [GD.PrintErr](https://github.com/godotengine/godot/blob/10e111477db68fe65776a1d68fb1ffccaf6520fc/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs#L272) | |
 | [Application.isEditor](https://docs.unity3d.com/ScriptReference/Application-isEditor.html) | [Engine.IsEditorHint](https://docs.godotengine.org/en/stable/classes/class_engine.html#class-engine-method-is-editor-hint) | |
 | [EditorUtility.OpenFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.OpenFilePanel.html) | [EditorFileDialog](https://docs.godotengine.org/en/stable/classes/class_editorfiledialog.html) | [Example](snippets/EditorFileDialog-open.md) |
 | [EditorUtility.SaveFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.SaveFilePanel.html) | [EditorFileDialog](https://docs.godotengine.org/en/stable/classes/class_editorfiledialog.html) | [Example](snippets/EditorFileDialog-save.md) |
