@@ -28,6 +28,7 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 | [Material.SetTexture](https://docs.unity3d.com/ScriptReference/Material.SetTexture.html) | [ShaderMaterial.SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) | |
 | [Quaternion.Euler](https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html) | [Quaternion.FromEuler](https://docs.godotengine.org/en/stable/classes/class_quaternion.html#class-quaternion-method-from-euler) | [Example](snippets/Quaternion.FromEuler.md) |
 | [MenuItem](https://docs.unity3d.com/ScriptReference/MenuItem.html) | [EditorPlugin.AddToolMenuItem](https://docs.godotengine.org/en/stable/classes/class_editorplugin.html#class-editorplugin-method-add-tool-menu-item) | [Example](snippets/AddToolMenuItem.md) |
+| [Texture2D.SetPixels](https://docs.unity3d.com/ScriptReference/Texture2D.SetPixels.html) | [Image.CreateFromData](https://docs.godotengine.org/en/stable/classes/class_image.html#class-image-method-create-from-data) and [ImageTexture.CreateFromImage](https://docs.godotengine.org/en/stable/classes/class_imagetexture.html) | [Example](snippets/ImageTexture.md) |
 
 ## Attributes
 | Unity | Godot |
@@ -37,13 +38,13 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 
 ## Classes
 
-| Unity | Godot |
-| ----- | ----- |
-| [Editor](https://docs.unity3d.com/ScriptReference/Editor.html) | [EditorInspectorPlugin](https://docs.godotengine.org/en/stable/classes/class_editorinspectorplugin.html) |
-| [Texture2D](https://docs.unity3d.com/ScriptReference/Texture2D.html) | [ImageTexture](https://docs.godotengine.org/en/stable/classes/class_imagetexture.html) |
-| [Texture3D](https://docs.unity3d.com/ScriptReference/Texture3D.html) | [ImageTexture3D](https://docs.godotengine.org/en/stable/classes/class_imagetexture3d.html) |
-| [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) | [Resource](https://docs.godotengine.org/en/3.1/classes/class_resource.html#class-resource) |
-| [ScriptedImporter](https://docs.unity3d.com/Manual/ScriptedImporters.html) | [EditorImportPlugin](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/import_plugins.html) |
+| Unity | Godot | Example |
+| ----- | ----- | ------- |
+| [Editor](https://docs.unity3d.com/ScriptReference/Editor.html) | [EditorInspectorPlugin](https://docs.godotengine.org/en/stable/classes/class_editorinspectorplugin.html) | |
+| [Texture2D](https://docs.unity3d.com/ScriptReference/Texture2D.html) | [ImageTexture](https://docs.godotengine.org/en/stable/classes/class_imagetexture.html) | [Example](snippets/ImageTexture.md) |
+| [Texture3D](https://docs.unity3d.com/ScriptReference/Texture3D.html) | [ImageTexture3D](https://docs.godotengine.org/en/stable/classes/class_imagetexture3d.html) | |
+| [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) | [Resource](https://docs.godotengine.org/en/3.1/classes/class_resource.html#class-resource) | |
+| [ScriptedImporter](https://docs.unity3d.com/Manual/ScriptedImporters.html) | [EditorImportPlugin](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/import_plugins.html) | |
 
 ## Preprocessor definitions:
 | Unity | Godot |
