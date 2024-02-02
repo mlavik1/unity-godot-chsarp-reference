@@ -1,6 +1,6 @@
 # EditorFileDialog for opening a file
 
-This is similar to Unity's [EditorUtility.OpenFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.OpenFilePanel.html).
+Godot has a `EditorFileDialog` and `FileDialog` class, which is similar to Unity's [EditorUtility.OpenFilePanel](https://docs.unity3d.com/ScriptReference/EditorUtility.OpenFilePanel.html).
 
 ```csharp
 EditorFileDialog fileDialog = new EditorFileDialog();
