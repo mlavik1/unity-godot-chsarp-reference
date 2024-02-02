@@ -25,7 +25,7 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 | [Material.SetInt](https://docs.unity3d.com/ScriptReference/Material.SetInt.html) | [ShaderMaterial.SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) | |
 | [Material.SetTexture](https://docs.unity3d.com/ScriptReference/Material.SetTexture.html) | [ShaderMaterial.SetShaderParameter](https://docs.godotengine.org/en/stable/classes/class_shadermaterial.html#method-descriptions) | |
 | [Quaternion.Euler](https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html) | [Quaternion.FromEuler](https://docs.godotengine.org/en/stable/classes/class_quaternion.html#class-quaternion-method-from-euler) | |
-| [MenuItem](https://docs.unity3d.com/ScriptReference/MenuItem.html) | [EditorPlugin.AddToolMenuItem](https://docs.godotengine.org/en/stable/classes/class_editorplugin.html#class-editorplugin-method-add-tool-menu-item) | |
+| [MenuItem](https://docs.unity3d.com/ScriptReference/MenuItem.html) | [EditorPlugin.AddToolMenuItem](https://docs.godotengine.org/en/stable/classes/class_editorplugin.html#class-editorplugin-method-add-tool-menu-item) | [Example](snippets/AddToolMenuItem.md) |
 
 ## Attributes
 | Unity | Godot |
