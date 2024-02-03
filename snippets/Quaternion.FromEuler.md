@@ -11,5 +11,5 @@ Quaternion quat = Quaternion.Euler(270.0f, 0.0f, 0.0f);
 
 **Godot:**
 ```csharp
-Quaternion quat = Quaternion.Euler(new Vector3(Mathf.DegToRad(90.0f), 0.0f, 0.0f));
+Quaternion quat = Quaternion.FromEuler(new Vector3(Mathf.DegToRad(90.0f), 0.0f, 0.0f));
 ```
