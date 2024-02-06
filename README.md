@@ -29,6 +29,8 @@ Unity and Godot are quite different by nature, but for everything you can do in 
 | [Quaternion.Euler](https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html) | [Quaternion.FromEuler](https://docs.godotengine.org/en/stable/classes/class_quaternion.html#class-quaternion-method-from-euler) | [Example](snippets/Quaternion.FromEuler.md) |
 | [MenuItem](https://docs.unity3d.com/ScriptReference/MenuItem.html) | [EditorPlugin.AddToolMenuItem](https://docs.godotengine.org/en/stable/classes/class_editorplugin.html#class-editorplugin-method-add-tool-menu-item) | [Example](snippets/AddToolMenuItem.md) |
 | [Texture2D.SetPixels](https://docs.unity3d.com/ScriptReference/Texture2D.SetPixels.html) | [Image.CreateFromData](https://docs.godotengine.org/en/stable/classes/class_image.html#class-image-method-create-from-data) and [ImageTexture.CreateFromImage](https://docs.godotengine.org/en/stable/classes/class_imagetexture.html) | [Example](snippets/ImageTexture.md) |
+| [Transform.forward](https://docs.unity3d.com/ScriptReference/Transform-forward.html) | [-GlobalTransform.Basis.Z](https://docs.godotengine.org/en/stable/classes/class_transform3d.html#class-transform3d-property-basis) | [Example](snippets/TransformForwardVector.md) |
+| [Time.deltaTime](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) | [public override void _Process(double delta)](https://docs.godotengine.org/en/stable/tutorials/scripting/overridable_functions.html#overridable-functions) | [Example](snippets/DeltaTime.md) |
 
 ## Attributes
 | Unity | Godot |
